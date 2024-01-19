@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
 
       //home: GridView(gridDelegate: SliverGridDelegate(CrossAxisAlignment.center),),
-      home: SumApp(),
+      home: LoginUI(),
     );
   }
 }
