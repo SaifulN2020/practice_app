@@ -5,6 +5,7 @@ import 'package:practice_app/different_screen/listtile_demo.dart';
 import 'package:practice_app/different_screen/new_column.dart';
 import 'package:practice_app/different_screen/row_page.dart';
 import 'package:practice_app/sum_app/SumApp.dart';
+import 'package:practice_app/tech_store_app/techStoreApp.dart';
 
 import 'different_screen/login_design.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginUI(),
+      home: TechStore(),
     );
   }
 }
